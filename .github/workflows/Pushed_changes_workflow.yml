@@ -1,0 +1,10 @@
+name: Confirm pushed changes
+
+on:
+    push
+
+jobs:
+    ConfirmMssg:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Changes have been confirmed"

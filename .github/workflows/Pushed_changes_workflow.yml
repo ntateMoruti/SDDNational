@@ -8,3 +8,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - run: echo "Changes have been confirmed"
+    Compile-program:
+        runs-on: ubuntu-latest
+        steps:
+            - run: javac *.java
